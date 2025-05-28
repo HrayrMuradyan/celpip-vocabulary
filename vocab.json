@@ -1,4 +1,4 @@
 [
-  { "word": "cul-de-sac", "image": "/static/img/culdesac.PNG" },
-  { "word": "plumber", "image": "/static/img/plumber.PNG" }
+  { "word": "cul-de-sac", "image": "img/culdesac.PNG" },
+  { "word": "plumber", "image": "img/plumber.PNG" }
 ]
