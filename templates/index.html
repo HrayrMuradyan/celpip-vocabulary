@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <button id="start-btn">Start</button>
+        <div id="game" style="display: none;">
+            <img id="image" src="" alt="Vocabulary Image">
+            <input id="guess" type="text" placeholder="Type the word">
+            <button id="check-btn">Check</button>
+            <p id="result"></p>
+            <div class="nav-buttons">
+                <button id="prev-btn" disabled>Previous</button>
+                <button id="next-btn" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
