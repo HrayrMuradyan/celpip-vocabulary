@@ -17,10 +17,14 @@ body {
 }
 
 img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
     max-height: 300px;
-    object-fit: cover;
-    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    background: #f0f0f0;
     border-radius: 10px;
 }
 
@@ -42,10 +46,64 @@ button {
     cursor: pointer;
 }
 
+#progress-bar-container {
+  width: 100%;
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#feedback-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+#feedback-bar p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#show-answer-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #17151f;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+#game {
+  position: relative;
+  padding-bottom: 60px; 
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
 button:disabled {
     background-color: #ccc;
 }
 
 .nav-buttons {
     margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+    img {
+        max-height: 200px;
+    }
 }
