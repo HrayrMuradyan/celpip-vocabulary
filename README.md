@@ -28,6 +28,15 @@ If your answer feels right but isn’t accepted, you can either:
 
 This way, you can tailor the experience to your preferences and learning style.
 
+**Note:** Since the project is designed for improving speaking, there might be some grammatical errors in the words. Please refer to `Contributing` section for more information about how to let me know about the issues.
+
+## Demo
+
+<video width="600" controls>
+  <source src="./assets/demo.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Future plans
 
 - "Show Correct Answer" should increment +1 to the incorrect attempts counter.
