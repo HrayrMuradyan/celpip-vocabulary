@@ -23,10 +23,18 @@ Visual learning is one of the most powerful ways to internalize vocabulary, and 
 **Note:** Some images can be described using more than one correct word.
 If your answer feels right but isn’t accepted, you can either:
 
-- Click the "Show the correct word" button to reveal the expected answer,
+- Click the "Show Correct Answer" button to reveal the expected answer,
 - Check the vocab.json file to customize or review the accepted responses (Only if ran locally through `vocab.json` file).
 
 This way, you can tailor the experience to your preferences and learning style.
+
+## Future plans
+
+- "Show Correct Answer" should increment +1 to the incorrect attempts counter.
+- Work a bit more on the design.
+- Add a mute button to disable the sound.
+- Add several options for a single image instead of just one correct word. Also, remove the difference between plural and singular versions of the answer for certain words. For example, calf and calves should both be correct. 
+- Repeat those images at the end that were answered incorrectly.
 
 ## Run locally
 
@@ -60,7 +68,7 @@ To run locally, proceed with the following instructions:
 
     You can add as many words and images as you want by adding new lines.
 
-    Note that only the last row doesn't have a comma after a line as shown here:  
+    Note that only the last row doesn't have a comma at the end of a line as shown here:  
     <br>
     ![vocab_image_comma](assets/vocab_json_instructions_comma.PNG)
 
