@@ -32,10 +32,7 @@ This way, you can tailor the experience to your preferences and learning style.
 
 ## Demo
 
-<video width="600" controls>
-  <source src="./assets/demo.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo](./assets/demo.gif)
 
 ## Future plans
 
